@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(seq.ttf);
+}
+
+@font-face {
+    font-family: myAv;
+    src: url(Avenir.ttf);
+}
+
+body {
+    background-color: black;
+    color: rgb(252, 252, 252);
+    font-family: myFont;
+    text-transform: uppercase;
+    height:100%;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.picMe {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.homeBlurb {
+    width: 50%;
+    text-align: center;
+}
+
+nav {
+    font-family: myAv;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 10px;
+}
+
+ul li a {
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+a:link { 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited { 
+    color: white; 
+}
+a:hover {
+    color: blue;
+}
+
+.reza-logo {
+    width: 50%;
+    justify-self: flex-end;
+    display: block;
+    flex: 1;
+}
